@@ -4,6 +4,6 @@ This repository contains a machine learning model trained to classify stars usin
 
 ## IMPORTANT
 
-**When running the files, DO NOT run the cells immediately below "Generated Data Completion" and the one that shuffles the dataset. Both of these cells are in Dataset.ipynb, and they will reshuffle the dataset, which will completely mess up the link between the images and their specific classifications. THESE CELLS WILL STILL HAVE SAFEGUARDS, SO IF YOU HAPPEN TO RUN THEM, ANSWER "N" WHEN PROMPTED**
+**When running the files, try not to run the cells that have prompts to them in Dataset.ipynb. If you happen to run the first two cells with user prompts ("Are you sure you want to run this cell"), which download data from Simbad and shuffles GeneratedData.txt, DO NOT RUN THE THIRD CELL WITH A USER VERIFICATION PROMPT WHICH UPDATES DATASET.CSV!!! This will mess up the Dataset's orientation with the Image Dataset, and will result in very low accuracy from the model. If you run the first two cells, which I don't recommend because downloading from Simbad takes a while and times you out from their DDOS protection sometimes, just make sure not to run the third cell with user authentication in Dataset.ipynb. Regarding Image Dataset.ipynb, just type "exit" when prompted.**
 
 Please enjoy!
